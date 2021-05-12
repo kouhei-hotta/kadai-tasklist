@@ -5,7 +5,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence; // JPAを使ったアクセスの処理
 
 
-public class TaskelistDBUtil {
+public class TasklistDBUtil {
     private static final String PERSISTENCE_UNIT_NAME = "tasklist";
     private static EntityManagerFactory emf;
 
